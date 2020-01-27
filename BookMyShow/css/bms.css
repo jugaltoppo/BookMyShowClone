@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.search-bar{
+    width: 40%;
+}
+.navbar-toggler-icon{
+    float:right;
+}
+.btn {
+    border-color: white;
+}
+.second-nav{
+    background-color: rgb(29, 33, 38);
+}
+
+.no-nav li a{
+    color:white;
+    padding: 0;
+    margin-top: 0;
+}
+.navbar-expand-md .no-nav .nav-link{
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+/* carousel */
+#carouselExampleIndicators{
+    margin: 0.5rem 0;
+}
+.carousel .col{
+    padding: 0 0.3rem;
+}
+img{
+    border-radius: 1%;
+}
+#carouselExampleIndicators img{
+    height: 20rem;
+}
+
+/* header */
+.list-header{
+    margin-top: 3rem;
+    border: none;
+}
+.list-group-item{
+    border: none;
+}
+.actived{
+    color: steelblue;
+}
+#adjust{
+    position:relative;
+    top:0.25rem;
+}
+
+
+/* movie cards */
+.movie-rating p{
+    margin-bottom: 0;
+}
+.row .movie-rating{
+    padding:0;
+}
+.all-details{
+    font-size: 14px;
+}
+.all-details .movie-detail{
+    padding: 0;
+}
+.movie-detail p{
+    margin-bottom: 0;
+}
+
+.card{
+    margin-bottom: 2rem ;
+    border-radius: 5%;
+
+}
+.card img{
+    border-radius: 5%;
+}
+.fa-heart{
+    color:red;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #carouselExampleIndicators{
+      display: none;
+    }
+  }
